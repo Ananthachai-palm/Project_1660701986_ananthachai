@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI by Ananthachai</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <p>BMI Calculate by Palm</p>
+    </header>
+    <main>
+        <div class="box">
+            <label>Input Your Weight:</label> <br>
+            <input type="number" id="weight" min="0" placeholder="weight"> <br>
+            <label>Input Your Height:</label> <br>
+            <input type="number" id="height" min="0" placeholder="height">
+            <button onclick="calculate()" id="submit">Submit</button>
+        </div>
+        <p id="output">(Please Input first, We will Calculate your BMI)</p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
